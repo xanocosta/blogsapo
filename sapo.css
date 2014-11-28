@@ -1,23 +1,82 @@
-div.main{
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	
+div{
+	border: 1px solid red;
+	margin-top: 5px;
 }
 
-div.logo{
-	
+
+.home{
+	text-decoration: none;
 }
 
-div.menu{
-	
+.main{
+width: 100%;
+margin: 0 auto;
 }
 
-div.banner{
-	
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-div.destaque{
-	
+.logo img{
+
 }
 
+h1{
+	padding-top: 20px;
+	clear:both;
+}
+
+.banner img{
+height: 250px;
+width: 100%;
+}
+
+.menu{
+width: 100%;
+height: 45px;
+float: left;
+font-size: 14px;
+display: table;
+clear: both;
+background: linear-gradient(to bottom, #57e14d 0%, #ef8526 150%)
+}
+
+li{
+list-style: none none;
+float: left;
+margin: 2px;
+font-family: arial;
+height: 100%;
+width: 8%;
+text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.banner{
+height: 250px;
+width: 100%;
+float: left;
+overflow: hidden;
+}
+
+.destaque{
+width: 20%;
+height: 180px;
+float: left;
+margin: 3%;
+}
+
+.destaque.last{
+	margin-right: 0;
+	float: right;
+}
+
+.destaque.first{
+	margin-left: 0;
+}
