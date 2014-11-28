@@ -65,11 +65,21 @@ float: left;
 overflow: hidden;
 }
 
+.destaque img{
+height:auto;
+width: 100%;
+margin: 0;
+}
+	
+
+
 .destaque{
 width: 20%;
 height: 180px;
 float: left;
-margin: 3%;
+margin-right: 3%;
+margin-left: 3%;
+
 }
 
 .destaque.last{
